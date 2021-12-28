@@ -3,3 +3,4 @@
 2. [VLANs](./vlans.md)
 3. [Inter-VLAN routing](./inter-vlan-routing.md)
 4. [Static Routing](./static-routing.md)
+4. [Dynamic Routing](./dynamic-routing.md)
