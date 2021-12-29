@@ -5,3 +5,5 @@
 4. [Static Routing](./static-routing.md)
 5. [Dynamic Routing](./dynamic-routing.md)
 6. [Access Control Lists](./acls.md)
+7. [IPv6](https://github.com/tm-eict/tmwiki/blob/master/Network_Fundamentals/ipv6.md)
+8. [DHCP](./dhcp.md)
