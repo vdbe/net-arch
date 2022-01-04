@@ -2,7 +2,7 @@
 
 ##  DHCPV4
 3 different address allocation methods:
-1. **_Manuel__**  
+1. **_Manual_**  
    Administrator assing __pre-alloacted__ address to the client, DHCP communicates only the address to the device
 2. **_Automatic Allocation_**  
    Automatically assings a static IPv4 address __permanently__ to a device, selectin it from a pool of
@@ -50,7 +50,7 @@ SLAAC: Stateless Address Auto Configuration
 
 - Feature of IPv6 in which a host or router can be assigned an IPv6 unicast address without the need for 
   a stateful DHCP server
-- Obtains prefix, prefix length and default gatewy from an IPv6 router without the use of a DHCPv6 server
+- Obtains prefix, prefix length and default gateway from an IPv6 router without the use of a DHCPv6 server
   - relies on the local __router’s ICMPv6 Router Advertisement (RA)__ messages to obtain the necessary information
   
 #### SLAAC RA
