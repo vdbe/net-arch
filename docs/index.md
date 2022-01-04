@@ -1,6 +1,6 @@
 # Net-Arch Notes
 1. [Basic Switch Operation]({{ "./basic-switch-operation" | relative_url}})
-2. [VLANs]({{ "./vlans.md" | relative_url }})
+2. [VLANs]({{ "./vlans" | relative_url }})
 3. [Inter-VLAN routing]({{ "./inter-vlan-routing" | relative_url }})
 4. [Static Routing]({{ "./static-routing" | relative_url }})
 5. [Dynamic Routing]({{ "./dynamic-routing" | relative_url }})
