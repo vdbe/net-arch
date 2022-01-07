@@ -46,6 +46,7 @@ Administrative Distance is the "trustworthiness" of the route.
 The Lower the AD the more trustworthy the route.
 
 Fixed values are used per routing protocol (see table, can be modified to manipulate routing decision's)
+
 | Route source        | Administrative distance |
 |---------------------|-------------------------|
 | Direct connected    | 0                       |

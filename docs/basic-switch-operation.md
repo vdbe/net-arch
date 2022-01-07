@@ -37,7 +37,8 @@ S1(config-if)# mdix auto
 ## MAC vs IP
 **MAC***
 - Does not change
-- Known as physical address assigned to the host NIC (Network Interface Cardd)
+- Known as physical address assigned to the host NIC (Network Interface Card)
+
 **IP**
 - Based on where the host is located, can change
 - Known as logical address because assigned logically
