@@ -35,7 +35,7 @@ S1(config-if)# mdix auto
 ```
 
 ## MAC vs IP
-**MAC***
+**MAC**
 - Does not change
 - Known as physical address assigned to the host NIC (Network Interface Card)
 
