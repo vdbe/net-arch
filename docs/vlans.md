@@ -103,5 +103,6 @@ Attacker acts as a switch and tries to establish a trunk with the switch.
 This works because bu default a port is set to `dynamic auto`. TURN OFF TRUNKING ON PORTS THAT DON'T NEED IT
 
 #### Double-Tagging
-https://sid-500.com/2017/10/31/cyber-security-vlan-double-tagging-hopping-attacks-explained/
+[explanation](https://sid-500.com/2017/10/31/cyber-security-vlan-double-tagging-hopping-attacks-explained/)
+
 !!!Don't set an access port to the native VLAN

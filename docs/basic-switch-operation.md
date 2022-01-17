@@ -24,7 +24,7 @@ S1(config-if)# duplex half # I think
 ```
 
 ## MDIX auto
-MDIX: **M**ediom-**D**ependent **I**nterfece **C**rossover
+MDIX: **M**edium-**D**ependent **I**nterfece **C**rossover
 - Detects if cable is straight-through or crossover
 - needs `speed auto` and `duplex auto` to work
 ### Enable
@@ -70,7 +70,7 @@ CAM: Content Addressable Memory
 - Each remote user uses a 'Virtual TTY' line
 - `Line vty 0 4` allows for lines [0-4] to be used: 5 users at the same time
 
-## Security Threads
+## Security Threats
 ### MAC address flooding
 Evil actor fills CAM table with fake MAC address, this means all frames will be flooded to all ports.
 Attacker now receives frames meant for other devices.
@@ -155,6 +155,7 @@ NTP: Network Time Protocol
   - Master clock on the Internet
   - GPS or atomic clock
 - A network device can be an NTP server or an NTP client
+
 ## 10 Best Security Practices
 0. Develop a written security policy for the organization
 1. Shut down unused services and ports

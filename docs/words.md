@@ -23,7 +23,7 @@
 | SNMP         | Simple Network Management Protocol             |                                                                                                                                                | 41   |
 | CLI          | Command Line Interface                         | Only usable interface                                                                                                                          | 42   |
 | SSH          | Secure Shell                                   | Protocol to access a shell over the network                                                                                                    | 52   |
-| VTY          | Virtual TTY?                                   |                                                                                                                                                | 54   |
+| VTY          | Virtual TTY                                    |                                                                                                                                                | 54   |
 | DHCP         | Dynamic Host Configuration Protocol            | Client/server protocol that automatically provides an IP address and other related info (subnet mask, default gateway)                         | 66   |
 | CDP          | Cisco Discovery Protocol                       | proprietary protocol that is used for collecting directly connected neighbor device information                                                | 73   |
 | DoS          | Denial Of Service                              |                                                                                                                                                | 74   |
@@ -41,9 +41,10 @@
 | ICMP         | Internet Control Message Protocol              | Packet sent by ping                                                                                                                            | 206  |
 | SDM          | The Cisco Database Manager                     | Something with templates?                                                                                                                      | 247  |
 | EIGRP        | Enhanced Interior Gateway Routing Protocol     | Routing Protocol                                                                                                                               | 305  |
+| IGRP         | Interior Gateway Routing Protocol              | First generation Cisco proprietary protocol                                                                                                    | 317  |
 | OSPF         | Open Shortest Path First                       | Routing protocol                                                                                                                               | 305  |
 | IS-IS        | Intermediate System-to-Intermediate System     | Routing Protocol                                                                                                                               | 305  |
-| RIP          | Routing Information Protocol                  | Routing Protocol                                                                                                                               | 305  |
+| RIP          | Routing Information Protocol                   | Routing Protocol                                                                                                                               | 305  |
 | MP-BGP4      | (Multicast Protocol-Border Gateway Protocol    |                                                                                                                                                | 307  |
 | LSP          | Link-State Packet                              | Packet containing the state of each directly connected link                                                                                    | 356  |
 | LSA          | Link State Advertisement                       | State and cost of each directly connected link                                                                                                 | 358  |
@@ -63,5 +64,5 @@
 | RS           | Router Solicitation                            |                                                                                                                                                | 570  |
 | NDP          | Neighbor Discovery Program                     |                                                                                                                                                | 575  |
 | EUI-64       | Extended Unique Identifier                     | Used to generate the interface ID                                                                                                              | 579  |
-| VLSM         | Variable Lenght Subnetting                     |                                                                                                                                                | 594  |
+| VLSM         | Variable Length Subnetting                     |                                                                                                                                                | 594  |
 | NR           | Number                                         | an arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity and used in counting and making calculations | 597  |

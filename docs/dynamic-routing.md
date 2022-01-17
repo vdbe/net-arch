@@ -78,6 +78,7 @@ To minimize impacts when something goes wrong
 
 ### OSPF
 #### Packet types
+
 | Type | Packet Name                | Description                                               |
 |------|----------------------------|-----------------------------------------------------------|
 | 1    | Hello                      | Discovers neighbors and builds adjacencies between then   |
@@ -103,14 +104,13 @@ To minimize impacts when something goes wrong
 ### Terms
 - Ultimate route
 
-   -Routing table entry that contains next-hop IP address or an exit
+   - Routing table entry that contains next-hop IP address or an exit
 
   - Directly connect, dynamical learned and link local routes are ultimate routes
 - Level 1 route
   - route with mask <= classful mask
   - Directly connect, static or dynamic routing protocol
-- Level 1 parent route
-
+- Level 1 parent route  
     automatically added to the routing table whenever a subnet (child route) with a
     mask > classful mask is added to the routing table
 

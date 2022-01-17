@@ -3,7 +3,7 @@ From page 150 to 308
 
 ## Routing Journey
 Example packet from PC1 (IP 192.168.1.2, MAC 01) to PC2 (IP 192.168.2.2, MAC 04)
-with router and gateway (IP 192.168.{1,2}.1, MAX {02,03}
+with router and gateway (IP 192.168.{1,2}.1, MAC {02,03})  
 1. PC1 to Router
    - Source IPs: 192.168.1.2 (PC1)
    - Destination IP: 192.168.2.4 (PC2)

@@ -6,7 +6,7 @@ such as the source IP address, destination IP addresses, and the protocol carrie
 - A router acts as a packet filter when it forwards or denies packets according to filtering rules
 - An ACL is a sequential list of permit or deny statements, known as access control entries (ACEs)
 
-- __**The last statement of an ACL is always implicit deny**__
+- _**The last statement of an ACL is always implicit deny**_
 
 ## Types of ACLs
 - IPv4
