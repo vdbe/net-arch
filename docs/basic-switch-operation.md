@@ -68,7 +68,7 @@ CAM: Content Addressable Memory
 
 ## Line VTY 0 4
 - Each remote user uses a 'Virtual TTY' line
-- `Line vty 0 4` allows for lines [0-4] to be used: 5 users at the same time
+- `Line vty 0 4` allows for lines [0;4] to be used: 5 users at the same time
 
 ## Security Threats
 ### MAC address flooding
@@ -88,7 +88,7 @@ Used before spoofing to deny valid service to the  valid DHCP server
 CDP (Cisco Discovery Protocol) is a layer 2 Cisco proprietary protocol used to 1 other
 Cisco devices that are connected and auto-configure their connection.
 
-An attach can listen to CDP message to gather device models, versions and so on.
+An attacker can listen to CDP message to gather device models, versions and so on.
 Disable CDP when its not needed anymore.
 
 ### Telnet vulnerabilities

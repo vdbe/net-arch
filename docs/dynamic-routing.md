@@ -39,9 +39,10 @@ In general, the operations of a dynamic routing protocol can be described as fol
 
 [comment]: <> (TODO: Page 312 to 335)
 
-### Convergence A network has converged when all routers have complete and accurate information about the entire network
+### Convergence  
+A network has converged when all routers have complete and accurate information about the entire network
 
-- Convergence time
+- Convergence time  
   The time it takes routers to share information, calculate best paths, and update their routing tables
 - A network is not completely operable until the network has converged
 
@@ -56,7 +57,7 @@ Each router:
 - learns about each of its own directly connect networks
 - is responsible for "saying hello" to its direct neighbors
 - builds a Link State Packet (LSP) containing that stage of each directly connect link
-- floods the LSP to all neighbors wo sore all the LSP's received in a DB
+- floods the LSP to all neighbors wo sore all the LSP's received in a DB  
   NOTE: All or just using OSPF?
 - uses the database to construct a complete topology map for the best path to each network
 
